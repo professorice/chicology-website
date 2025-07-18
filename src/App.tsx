@@ -13,7 +13,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <Header />
       <main>
-        <Hero title="AI-Powered E-commerce Platform" description="Create a comprehensive e-commerce platform with AI-powered product recommendations, real-time inventory management, secure payment processing, customer reviews, admin dashboard, and mobile-responsive design. Must follow TypeScript best practices, implement security headers for Mozilla Observatory A-grade, and optimize for Core Web Vitals." />
+        <Hero title="Autonomous AI Portfolio - Final Validation" description="Create a comprehensive portfolio that demonstrates all README.md requirements: TypeScript excellence, security-first design (Mozilla Observatory A-grade), cost optimization under $1/month, LaunchDarkly observability, automated GitHub deployment, responsive design, accessibility compliance, and Core Web Vitals optimization." />
         <Features />
         <About />
         <SuggestionForm />
