@@ -13,7 +13,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <Header />
       <main>
-        <Hero title="Chicology Main Branch Deploy Test" description="Testing direct deployment to main branch for Cloudflare Pages auto-deployment" />
+        <Hero title="Autonomous AI Portfolio Website" description="Create a professional portfolio website that showcases AI capabilities, includes interactive demos, responsive design, accessibility features, and performance optimization. The site should demonstrate TypeScript best practices, security-first design, and cost-effective implementation." />
         <Features />
         <About />
         <SuggestionForm />
