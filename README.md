@@ -1,6 +1,6 @@
-# Chicology Main Branch Deploy Test
+# Autonomous AI Portfolio Website
 
-Testing direct deployment to main branch for Cloudflare Pages auto-deployment
+Create a professional portfolio website that showcases AI capabilities, includes interactive demos, responsive design, accessibility features, and performance optimization. The site should demonstrate TypeScript best practices, security-first design, and cost-effective implementation.
 
 This is a React website built with Vite, TypeScript, and Tailwind CSS. It's part of the Chicology AI-powered self-iterating website system.
 
