@@ -1,6 +1,6 @@
-# Autonomous AI Portfolio Website
+# AI-Powered E-commerce Platform
 
-Create a professional portfolio website that showcases AI capabilities, includes interactive demos, responsive design, accessibility features, and performance optimization. The site should demonstrate TypeScript best practices, security-first design, and cost-effective implementation.
+Create a comprehensive e-commerce platform with AI-powered product recommendations, real-time inventory management, secure payment processing, customer reviews, admin dashboard, and mobile-responsive design. Must follow TypeScript best practices, implement security headers for Mozilla Observatory A-grade, and optimize for Core Web Vitals.
 
 This is a React website built with Vite, TypeScript, and Tailwind CSS. It's part of the Chicology AI-powered self-iterating website system.
 
