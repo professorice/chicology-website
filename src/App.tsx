@@ -1,4 +1,3 @@
-import React from 'react'
 import { withLDProvider } from 'launchdarkly-react-client-sdk'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -13,7 +12,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <Header />
       <main>
-        <Hero title="Daily Build: Photography Portfolio - 7/24/2025" description="Photographer portfolio with image galleries and client testimonials. Auto-generated on 2025-07-24T03:09:33.310Z" />
+        <Hero title="Restaurant Site - 7/24/2025" description="Restaurant website with menu, location, and reservation system. Generated on 2025-07-24T03:18:20.965Z" />
         <Features />
         <About />
         <SuggestionForm />
@@ -24,7 +23,7 @@ function App() {
 }
 
 export default withLDProvider({
-  clientSideID: import.meta.env.VITE_LAUNCHDARKLY_CLIENT_ID || process.env.LAUNCHDARKLY_CLIENT_ID || '6879b316319ed309cb1e3c50',
+  clientSideID: import.meta.env.VITE_LAUNCHDARKLY_CLIENT_ID || 'demo-client-id',
   user: {
     key: 'anonymous-user',
     anonymous: true
