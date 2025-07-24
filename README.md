@@ -1,6 +1,6 @@
-# Restaurant Site - 7/24/2025
+# E-commerce Showcase - 7/24/2025
 
-Restaurant website with menu, location, and reservation system. Generated on 2025-07-24T03:18:20.965Z
+Product showcase website with gallery and shopping cart functionality. Generated on 2025-07-24T03:18:42.819Z
 
 This is a React website built with Vite, TypeScript, and Tailwind CSS. It's part of the Chicology AI-powered self-iterating website system.
 
