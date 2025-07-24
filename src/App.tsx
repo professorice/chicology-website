@@ -12,7 +12,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <Header />
       <main>
-        <Hero title="E-commerce Showcase - 7/24/2025" description="Product showcase website with gallery and shopping cart functionality. Generated on 2025-07-24T03:18:42.819Z" />
+        <Hero title="Daily Build: Modern Portfolio Site - 7/24/2025" description="A clean, modern portfolio website with animations and responsive design. Auto-generated on 2025-07-24T03:20:00.672Z" />
         <Features />
         <About />
         <SuggestionForm />
