@@ -1,6 +1,6 @@
-# Agency Website - 7/24/2025
+# Blog Platform - 7/24/2025
 
-Creative agency website with team profiles and project galleries. Generated on 2025-07-24T02:47:46.745Z
+Minimalist blog platform with markdown support and reading time estimates. Generated on 2025-07-24T02:59:18.496Z
 
 This is a React website built with Vite, TypeScript, and Tailwind CSS. It's part of the Chicology AI-powered self-iterating website system.
 
