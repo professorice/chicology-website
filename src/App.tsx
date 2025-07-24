@@ -13,7 +13,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <Header />
       <main>
-        <Hero title="Blog Platform - 7/24/2025" description="Minimalist blog platform with markdown support and reading time estimates. Generated on 2025-07-24T02:59:18.496Z" />
+        <Hero title="Tech Startup - 7/24/2025" description="SaaS startup landing page with pricing tiers and feature highlights. Generated on 2025-07-24T03:02:47.387Z" />
         <Features />
         <About />
         <SuggestionForm />
