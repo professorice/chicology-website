@@ -13,7 +13,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <Header />
       <main>
-        <Hero title="Autonomous AI Portfolio - Final Validation" description="Create a comprehensive portfolio that demonstrates all README.md requirements: TypeScript excellence, security-first design (Mozilla Observatory A-grade), cost optimization under $1/month, LaunchDarkly observability, automated GitHub deployment, responsive design, accessibility compliance, and Core Web Vitals optimization." />
+        <Hero title="Agency Website - 7/24/2025" description="Creative agency website with team profiles and project galleries. Generated on 2025-07-24T02:47:46.745Z" />
         <Features />
         <About />
         <SuggestionForm />
@@ -24,7 +24,7 @@ function App() {
 }
 
 export default withLDProvider({
-  clientSideID: 'YOUR_LAUNCHDARKLY_CLIENT_ID',
+  clientSideID: import.meta.env.VITE_LAUNCHDARKLY_CLIENT_ID || process.env.LAUNCHDARKLY_CLIENT_ID || '6879b316319ed309cb1e3c50',
   user: {
     key: 'anonymous-user',
     anonymous: true
