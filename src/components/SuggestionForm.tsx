@@ -11,7 +11,7 @@ const SuggestionForm: React.FC = () => {
     setIsSubmitting(true)
 
     try {
-      const response = await fetch('/api/suggestions', {
+      const response = await fetch('https://chicology-worker.mzafir.workers.dev/api/suggestions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
