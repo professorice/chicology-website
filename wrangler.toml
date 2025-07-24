@@ -1,0 +1,23 @@
+# Cloudflare Pages configuration
+# This file is used if you want to deploy via Wrangler instead of GitHub integration
+
+name = "chicology-website"
+compatibility_date = "2024-01-01"
+
+[env.production]
+account_id = "eb34be628470c7035aff8a74ad5a448d"
+compatibility_date = "2024-01-01"
+
+[[env.production.routes]]
+pattern = "chicology.pages.dev/*"
+zone_name = "pages.dev"
+
+[build]
+command = "npm run build"
+cwd = "."
+watch_dir = "src"
+
+[build.upload]
+format = "service-worker"
+dir = "dist"
+main = "./dist/index.html"
