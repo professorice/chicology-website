@@ -12,13 +12,13 @@ const getClientId = (): string => {
   // Check for Vite environment variable (available at build time)
   if (typeof import.meta !== 'undefined' && import.meta.env) {
     const env = import.meta.env as any;
-    if (env.VITE_LAUNCHDARKLY_CLIENT_ID) {
-      return env.VITE_LAUNCHDARKLY_CLIENT_ID;
+    if (env.LAUNCHDARKLY_CLIENT_ID) {
+      return env.LAUNCHDARKLY_CLIENT_ID;
     }
   }
   
   // Fallback: disable LaunchDarkly if no client ID is provided
-  throw new Error('LaunchDarkly Client ID not configured. Please set VITE_LAUNCHDARKLY_CLIENT_ID environment variable.');
+  throw new Error('LaunchDarkly Client ID not configured. Please set LAUNCHDARKLY_CLIENT_ID environment variable.');
 };
 
 function App() {
@@ -26,8 +26,8 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <Header />
       <main>
-        <Hero title="Agency Website - 7/24/2025" description="Creative agency website with team profiles and project galleries. Generated on 2025-07-24T03:26:47.483Z" />
-        <Features />
+        <Hero title="Photography Portfolio - 7/24/2025" description="Photographer portfolio with image galleries and client testimonials. Generated on 2025-07-24T03:32:38.324Z" buildId="7fpabmin0" generatedAt="3:32:38 AM" />
+        <Features features={["Advanced Security","Real-time Optimization","Automated SEO"]} />
         <About />
         <SuggestionForm />
       </main>
