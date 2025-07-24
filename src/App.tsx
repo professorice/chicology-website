@@ -23,11 +23,11 @@ const getClientId = (): string => {
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-100">
       <Header />
       <main>
-        <Hero title="Photography Portfolio - 7/24/2025" description="Photographer portfolio with image galleries and client testimonials. Generated on 2025-07-24T03:32:38.324Z" buildId="7fpabmin0" generatedAt="3:32:38 AM" />
-        <Features features={["Advanced Security","Real-time Optimization","Automated SEO"]} />
+        <Hero title="Business Landing Page - 7/24/2025" description="Professional business landing page with contact forms and service sections. Generated on 2025-07-24T03:33:15.237Z" buildId="aypaywgq8" generatedAt="3:33:15 AM" />
+        <Features features={["Intelligent Caching","Dynamic Personalization","AI-Powered Analytics"]} />
         <About />
         <SuggestionForm />
       </main>
