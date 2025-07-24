@@ -1,6 +1,6 @@
-# Agency Website - 7/24/2025
+# Photography Portfolio - 7/24/2025
 
-Creative agency website with team profiles and project galleries. Generated on 2025-07-24T03:26:47.483Z
+Photographer portfolio with image galleries and client testimonials. Generated on 2025-07-24T03:32:38.324Z
 
 This is a React website built with Vite, TypeScript, and Tailwind CSS. It's part of the Chicology AI-powered self-iterating website system.
 
