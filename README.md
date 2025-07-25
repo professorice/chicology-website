@@ -1,6 +1,6 @@
-# Test Website
+# Test Website with Detailed Logging
 
-A test website to verify content generation
+Testing improved error handling and content validation
 
 This is a React website built with Vite, TypeScript, and Tailwind CSS. It's part of the Chicology AI-powered self-iterating website system.
 
