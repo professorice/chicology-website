@@ -26,8 +26,8 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-teal-100">
       <Header />
       <main>
-        <Hero title="Daily Build: Photography Portfolio - 7/25/2025" description="Photographer portfolio with image galleries and client testimonials. Auto-generated on 2025-07-25T17:00:35.032Z" buildId="a9t02bphc" generatedAt="5:00:35 PM" />
-        <Features features={["Advanced Security","Dynamic Personalization","Intelligent Caching"]} />
+        <Hero title="Test Website" description="A test website to verify content generation" buildId="o0oi3xzlj" generatedAt="5:52:43 PM" />
+        <Features features={["Intelligent Caching","Real-time Optimization","Dynamic Personalization"]} />
         <About />
         <SuggestionForm />
       </main>
