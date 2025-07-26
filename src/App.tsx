@@ -23,11 +23,11 @@ const getClientId = (): string => {
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-cyan-50 to-blue-100">
+    <div className="min-h-screen bg-gradient-to-br from-green-50 to-teal-100">
       <Header />
       <main>
-        <Hero title="Fixed Deployment Test" description="Testing the improved batched file deployment system" buildId="ukijufxhu" generatedAt="6:04:25 PM" />
-        <Features features={["Automated SEO","AI-Powered Analytics","Advanced Security"]} />
+        <Hero title="Daily Build: Photography Portfolio - 7/26/2025" description="Photographer portfolio with image galleries and client testimonials. Auto-generated on 2025-07-26T17:00:34.281Z" buildId="64u32eewv" generatedAt="5:00:34 PM" />
+        <Features features={["AI-Powered Analytics","Advanced Security","Real-time Optimization"]} />
         <About />
         <SuggestionForm />
       </main>
