@@ -1,6 +1,6 @@
-# Daily Build: Restaurant Site - 7/27/2025
+# Fixed LaunchDarkly Configuration
 
-Restaurant website with menu, location, and reservation system. Auto-generated on 2025-07-27T17:01:06.570Z
+Website with proper LAUNCHDARKLY_CLIENT_ID environment variable usage
 
 This is a React website built with Vite, TypeScript, and Tailwind CSS. It's part of the Chicology AI-powered self-iterating website system.
 
