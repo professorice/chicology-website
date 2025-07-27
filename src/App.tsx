@@ -23,11 +23,11 @@ const getClientId = (): string => {
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="min-h-screen bg-gradient-to-br from-cyan-50 to-blue-100">
       <Header />
       <main>
-        <Hero title="Fixed LaunchDarkly Configuration" description="Website with proper LAUNCHDARKLY_CLIENT_ID environment variable usage" buildId="psu7531n9" generatedAt="5:01:38 PM" />
-        <Features features={["AI-Powered Analytics","Advanced Security","Dynamic Personalization"]} />
+        <Hero title="Daily Build: Business Landing Page - 7/27/2025" description="Professional business landing page with contact forms and service sections. Auto-generated on 2025-07-27T17:02:12.705Z" buildId="oxugru7ic" generatedAt="5:02:12 PM" />
+        <Features features={["AI-Powered Analytics","Performance Monitoring","Intelligent Caching"]} />
         <About />
         <SuggestionForm />
       </main>
