@@ -10,8 +10,11 @@ import './App.css'
 // Get LaunchDarkly client ID from environment
 const getClientId = (): string => {
   // In Cloudflare Pages, environment variables are available through import.meta.env
-  if (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.LAUNCHDARKLY_CLIENT_ID) {
-    return import.meta.env.LAUNCHDARKLY_CLIENT_ID as string;
+  if (typeof import.meta !== 'undefined' && import.meta.env) {
+    const env = import.meta.env as any;
+    if (env.LAUNCHDARKLY_CLIENT_ID) {
+      return env.LAUNCHDARKLY_CLIENT_ID;
+    }
   }
   
   // This should not happen if the environment variable is properly set in Cloudflare Pages
@@ -23,8 +26,8 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <Header />
       <main>
-        <Hero title="Fixed LaunchDarkly Configuration" description="Website should now load properly with LAUNCHDARKLY_CLIENT_ID" buildId="1753635819845" generatedAt="5:03:39 PM" />
-        <Features features={["Fixed LaunchDarkly", "Environment Variables", "Proper Configuration"]} />
+        <Hero title="Business Landing Page - 7/29/2025" description="Professional business landing page with contact forms and service sections. Generated on 2025-07-29T14:41:34.748Z" buildId="yokt1t8el" generatedAt="2:41:34 PM" />
+        <Features features={["Smart Content Management","Automated SEO","AI-Powered Analytics"]} />
         <About />
         <SuggestionForm />
       </main>
