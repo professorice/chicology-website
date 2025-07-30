@@ -10,7 +10,9 @@ This is a React website built with Vite, TypeScript, and Tailwind CSS. It's part
 - ⚛️ React 18 with TypeScript
 - 🎨 Tailwind CSS for styling
 - 🚦 LaunchDarkly integration for feature flags
-- 📱 Responsive design
+- � LaunchDarkly Observability with session replay
+- 🛡️ Error boundary with automatic error reporting
+- �📱 Responsive design
 - 🔧 ESLint configuration
 
 ## Development
