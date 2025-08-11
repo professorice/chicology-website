@@ -12,7 +12,7 @@ const About: React.FC = () => {
             <p className="text-lg text-gray-600 mb-6">
               Chicology represents the future of web development - an AI-powered platform
               that continuously learns, adapts, and improves based on real user interactions
-              and feedback. Generated fresh on 8/10/2025 at 6:01:27 PM.
+              and feedback. Generated fresh on 8/11/2025 at 6:00:59 PM.
             </p>
             <p className="text-lg text-gray-600 mb-6">
               Our self-iterating system uses advanced machine learning to optimize
@@ -30,7 +30,7 @@ const About: React.FC = () => {
               </div>
             </div>
             <div className="mt-4 text-sm text-gray-500">
-              Build ID: 8g4xybq62 | Iteration: 1754848887326
+              Build ID: 4mbccy4yx | Iteration: 1754935259626
             </div>
           </div>
           <div className="bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg p-8 text-white">
