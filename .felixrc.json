@@ -1,0 +1,15 @@
+{
+  "fixers": ["eslint", "prettier"],
+  "paths": ["src", "tests"],
+  "ignore": ["node_modules/**", "dist/**", "coverage/**"],
+  "eslint": {
+    "command": ["npm", "run", "lint:check"],
+    "appendPaths": false,
+    "extensions": [".ts"]
+  },
+  "prettier": {
+    "command": ["npm", "run", "format:check"],
+    "appendPaths": false,
+    "extensions": [".ts", ".json", ".md", ".yml", ".yaml"]
+  }
+}
